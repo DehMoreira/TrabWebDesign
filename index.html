@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Prova 2 - Webdesign - SI</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <!-- css proprio-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+  </head>
+  <body>
+
+    <!--CABEÇALHO -->
+    <header>
+
+        <nav id="menu" class="bg-primary navbar-dark">
+
+          <!--Logo e texto-->
+          <div class="container-fluid">
+            <div class="row align-items-center justify-content-evenly">
+
+               <!--Parte Imagem-->
+              <div class=" col-sm-2 col-md-2 ">
+                <a href="#" class="navbar-brand">
+                  <img src="img/brasao.svg" width="80" class="img-fluid">
+                </a>
+              </div>
+          
+               <!--Parte Texto-->
+              <div class="coluna2 col-sm-10 col-md-10 text-light text-center">
+                <h4>Sistemas de Informação</h4>
+                <h5>Curso de Graduação - Campus Santa Maria</h5>
+              </div>
+          
+            </div>
+          </div>
+
+           <!--Menu-->
+          <div class="container-fluid"> 
+
+            <div class="navbar navbar-expand-md ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links">
+                <span class="navbar-toggler-icon"></span> 
+              </button>
+            
+
+              <!-- Itens do menu -->
+            
+              <div id="links" class="collapse navbar-collapse">
+                
+                <ul class="navbar-nav ">
+
+                  <li class="nav-item">
+                    <a href="#descricao" class="nav-link"> Curso </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#docentes" class="nav-link"> Docentes </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#noticias" class="nav-link"> Noticias </a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  data-bs-toggle="dropdown">
+                      Links 
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://www.ufsm.br/cursos/graduacao/santa-maria/sistemas-de-informacao/">SI - UFSM</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="https://www.ufsm.br/">UFSM</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#contato" class="nav-link"> Contato </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </nav>
+
+    </header>
+
+
+<!--SEÇÃO 1 -->
+    <section id="descricao">
+      <div class="container">
+        <h1 class="bg-primary text-center text-light"> Sobre o Curso </h1> <br>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Histórico</h3>
+            <p class ="textoCurso"> 
+               O curso de Sistemas de Informação na modalidade de Bacharelado (diurno),
+               foi criado em 2009. Na UFSM, a área de Computação iniciou sua consolidação com a criação 
+               do Curso de Ciência da Computação em 1990, denominado naquela época de Curso Livre de 
+               Formação Superior em Informática. Passando, desde então, por diversas reformas curriculares,
+               o Curso de Ciência da Computação foi direcionado para desenvolver a capacidade de projetar e
+               construir software e hardware, obedecendo preceitos de formação básica, profissional e 
+               complementar. Nessa nova proposta, a UFSM passa a contar com mais um curso na área de Computação, 
+               denominado Sistemas de Informação, o qual visa atender a uma demanda existente na região: a de 
+               profissionais de computação com conhecimentos empresariais.
+            </p>
+          </div>
+            
+          <div class="logoSi col-md-6">
+            <img src="img/logo_si.png" class="img-fluid">
+          </div>
+        </div>
+                      <!-- Imagens Passando -->
+        <div class="fotos carousel slide" data-bs-ride="carousel">
+
+          <div class=" carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/foto1.jpg" >
+              </div>
+              <div class="carousel-item">
+                <img src="img/foto2.jpg" >
+              </div>
+              <div class="carousel-item">
+                <img src="img/foto3.jpg" >
+              </div>
+              <div class="carousel-item">
+                <img src="img/foto4.jpg" >
+              </div>
+              <div class="carousel-item">
+                <img src="img/foto5.jpg" >
+              </div>
+          </div>
+          
+        </div> 
+                      
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Objetivos do curso</h3>
+            <p class="textoCurso"> Com o intuito de estimular e contribuir para a preparação de mão-de-obra 
+              especializada e indispensável à política de desenvolvimento nacional, o bacharel em Sistemas de Informação  
+              tem para isso, deve estar familiarizado com metodologias adequadas para o desenvolvimento de sistemas e para 
+              a gestão de projetos, de acordo com as necessidades organizacionais e os recursos tecnológicos disponíveis, 
+              visando a melhoria do desempenho da eficiência, da racionalização e da redução de custos dos serviços administrativos.</p>
+
+          </div>
+          <div class="col-md-4">
+            <h3>Área de atuação</h3>
+            <p class="textoCurso">O profissional de Sistemas de Informação é responsável por desenvolver e manejar programas
+              informatizados de armazenamento e compartilhamento de dados. Sua missão consiste em organizar e garantir acesso 
+              à informação para todos os departamentos de uma empresa. Atualmente, essa função é indispensável dentro de qualquer 
+              empreendimento. A mudança de paradigmas no mundo corporativo tem dado cada vez mais valor ao conhecimento como fonte 
+              de riqueza. Algo que o egresso do curso de Sistemas de Informação tem a oferecer.</p>
+
+          </div>              
+          <div class="col-md-4">
+            <h3>Perfil do Egresso</h3>
+            <p class="textoCurso"> O Bacharel em Sistemas de Informação é o profissional que vai se valer de conceitos e técnicas de informática 
+              e teoria de sistemas para contribuir na solução de problemas de tratamento da informação nas organizações por meio da construção de 
+              modelos de automação corporativa. Ele deve ter espírito empreendedor que lhe permita conceber, criar e concretizar projetos de 
+              tratamento da informação, consciente da sua função na sociedade e de acordo com valores éticos.</p>
+
+          </div>
+        </div>
+
+        <b>Número de Vagas: </b> 40 <br>
+        <b>Formas de Ingresso: </b>Sisu <br> 
+        <b>Turno: </b> Diurno <br> 
+        <b>Duração: </b> 8 semestres. <br><br>
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+          <a href="https://www.ufsm.br/cursos/graduacao/santa-maria/sistemas-de-informacao/informacoes-do-curriculo" class = "btn btn-outline-primary btn-sm ">Estrutura Curricular</a>
+          <a href="https://www.ufsm.br/cursos/graduacao/santa-maria/sistemas-de-informacao/colegiados-e-comissoes/" class = "btn btn-outline-primary btn-sm ">Normas Internas</a>
+        </div>
+
+      </div>
+    </section>
+
+<!--SEÇÃO 2-->
+
+    <section id="docentes">
+      <div class="container">
+        <h1 class="bg-primary text-center text-light"> Docentes </h1> <br>
+        <p class="textoCurso">
+          <b>Coordenação: </b> Atualmente, a coordenação é de responsabilidade de <b>ANTONIO MARCOS DE OLIVEIRA CANDIA</b>.
+        </p>
+
+        <table class="table table-striped table-hover text-center ">
+
+          <tr class="table-primary text-light"> 
+            <th>Nome</th>
+            <th>Departamento</th>
+            <th>Escolaridade</th>
+          </tr>
+
+          <tr>
+            <td>Andre Zanki Cordenonsi</td>
+            <td>Arquivologia</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Andrea Schwertner Charao</td>
+            <td>Linguagens e Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Angela Pellegrin Ansuj</td>
+            <td>Estatística</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Antonio Marcos de Oliveira Candia</td>
+            <td>Linguagens e Sistemas de Computação</td>
+            <td>Mestrado</td>
+          </tr>
+          <tr>
+            <td>Benhur de Oliveira Stein</td>
+            <td>Linguagens e Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Carlos Raniery Paula dos Santos</td>
+            <td>Computação Aplicada</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Celio Trois</td>
+            <td>Linguagens e Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Cesar Tadeu Pozzer</td>
+            <td>Computação Aplicada</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Daniel Welfer</td>
+            <td>Computação Aplicada</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Deise de Brum Sacool</td>
+            <td>Linguagens e Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Dieison Lenon Casagrande</td>
+            <td>Economia e Relações Internacionais</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Eduardo Kessler Piveta</td>
+            <td>Linguagens e Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Eliane Maria Farias Lukaszczyk</td>
+            <td>Matemática</td>
+            <td>Especialização</td>
+          </tr>
+          <tr>
+            <td>Giliane Bernardi</td>
+            <td>Computação Aplicada</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Giovani Baratto</td>
+            <td>Eletrônica e Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Giovani Rupert Librelotto</td>
+            <td>Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Joao Carlos Damasceno Lima </td>
+            <td>Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Joaquim Vinicius Carvalor Assunção</td>
+            <td>Computação Aplicada</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Juliana Kaizer Vizzoto</td>
+            <td>Sistemas de Computação Aplicada</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Julio Cezar Mairesse Siluk</td>
+            <td>Engenharia de Produção e Sistemas</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Leonardo Londero de Oliveira</td>
+            <td>Eletrônica e Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Lisandra Manzoni Fontoura</td>
+            <td>Computação Aplicada</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Luciana Davi Traverso</td>
+            <td>Ciências Administrativas</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Luis Alvaro de Lima Silva</td>
+            <td>Computação Aplicada</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Marcia Pasin</td>
+            <td>Linguagens e Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Mateus Beck Rutzig</td>
+            <td>Eletrônica e Computação	</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Patricia Pitthan de Araujo Barcelos</td>
+            <td>Linguagens e Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Rodrigo Marques de Almeida Guerra</td>
+            <td>Ciências Administrativas</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Roseclea Duarte Medina</td>
+            <td>Computação Aplicada</td>
+            <td>Doutorado</td>
+          </tr>
+          <tr>
+            <td>Sergio Luis Sardi Mergen</td>
+            <td>Linguagens e Sistemas de Computação</td>
+            <td>Doutorado</td>
+          </tr>
+
+        </table>
+      </div>
+    </section>
+    
+<!--SEÇÃO 3-->
+
+    <section id="noticias">
+  <div class="container">
+    <h1 class="bg-primary text-center text-light"> Notícias </h1> <br>
+  
+    <ul class="list-group list-group-flush">
+
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#noticia1" role="button">
+            Avaliação do Curso
+            </a>
+          </p>
+
+          <div class="collapse" id="noticia1">
+            <div class="notas  row">
+
+              <div class="col-sm-12 col-md-4">
+                <div class="card text-center text-white bg-dark" style="width: 15rem;">
+                  <div class="card-body">
+                    <p class="card-text"><b>Conceito de Curso</b><br>2012<h1>4</h1></p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-sm-12 col-md-4">
+                <div class="card text-center text-white bg-dark" style="width: 15rem;">
+                  <div class="card-body">
+                    <p class="card-text"><b>Conceito Preliminar de Curso</b><br>2017<h1>4</h1></p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-sm-12 col-md-4">
+                <div class="card text-center text-white bg-dark" style="width: 15rem;">
+                  <div class="card-body">
+                    <p class="card-text"><b>ENADE</b><br>2017<h1>5</h1></p>
+                  </div>
+                </div>
+                </div>
+              </div>
+          
+          </div> 
+
+        </div>
+        <span class="badge bg-primary rounded-pill">New</span>
+      </li>
+
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#noticia2" role="button">
+            Projeto Circulação
+            </a>
+          </p>
+        
+          <div class="collapse" id="noticia2">
+            <p class="textoCurso"> Na ultima quarta-feira, dia 30 de Dezembro, os grupos PET-UFSM realizaram a segunda ação de coleta 
+              de sangue do ano de 2016. A ação ocorreu na frente do Centro de Tecnologia da UFSM (CT), onde foram coletadas um total 
+              de 81 bolsas de sangue. O PET-SI agradece a todos que contribuíram com a ação e a todos aqueles que por algum motivo não 
+              puderam realizar a doação no dia mas ainda desejam fazer-la que compareçam ao Hemocentro Regional de Santa Maria.
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#noticia3" role="button">
+            Conexão Sistemas
+            </a>
+          </p>
+
+          <div class="collapse" id="noticia3">
+            <img src="img/img_noticia.png" class="img-fluid rounded mx-auto d-block">
+            <p class="textoCurso"> O grupo PET – Sistemas de Informação promove a atividade Conexão Sistemas. A atividade será no dia 
+              11/10/2016, terça-feira, das 13h00min às 14h30min, na Sala 355, Anexo A – Centro de Tecnologia na Universidade Federal de 
+              Santa Maria.
+              <a href="noticia_exemplo.html" class="link-info">Saiba mais...</a>
+            </p>
+          </div>
+        </div>
+
+      </li>
+
+    </ul>
+
+  </div>
+
+
+    </section>
+
+  <!--SEÇÃO 4-->
+    <section id="contato">
+      <div class="container">
+
+        <h1 class="bg-primary text-center text-light"> Para entrar em contato </h1> <br>
+        <div class ="row">
+
+          <div class="col-sm-12 col-md-7">
+            <p class ="textoCurso"><b>UFSM</b><br>
+              <b>Endereço:</b> Av. Roraima nº 1000 - Cidade Universitária - Bairro Camobi<br>
+              <b>CEP:</b> 97105-900<br><br>
+            </p>
+          </div>
+
+          <div class="col-sm-12 col-md-5">
+            <p class ="textoCurso"> <b>Secretaria do Curso de Sistemas de Informação</b><br>
+              <b>Sala:</b> 336 - Centro de Tecnologia, prédio 7, 3° andar <br>
+              <b>Telefone:</b> (55) 3220 8523 - Ramal 29 <br>
+              <b>E-mail:</b> coord-bsi@inf.ufsm.br <br><br>
+            </p>
+          </div>
+        </div>
+        <p class="text-center">
+          Ou entre em contato pelo <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" href="#formulario" >Formulário de Contato</button>
+        </p>
+
+ 
+        <div class="collapse" id="formulario">
+          <form>
+            <div class="row">
+                    
+              <div class="col-md-5">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="form-control" placeholder="Nome" >
+              </div>
+
+              <div class="col-md-5">
+                <label for="nome">Sobrenome</label>
+                <input type="text" id="sobrenome" class="form-control" placeholder="Sobrenome">
+              </div>
+
+              <div class="col-md-2">
+                <label> Sexo: <br>
+                  <input type="radio" name="sexo" value="M"> Feminino<br>
+                  <input type="radio" name="sexo" value="F"> Masculino
+                </label>
+              </div>
+
+              <div class="col-md-2">
+                <label for="idade">Idade</label>
+                <input class="form-control" type="text" id="idade" placeholder="Idade">
+              </div>
+
+              <div class="col-md-6">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" id="email" placeholder="Email">
+              </div>
+
+              <div class="col-md-4">
+                <label for="telefone">Telefone</label>
+                <input class="form-control" type="number" id="text" placeholder="Telefone">
+              </div> 
+
+              <div class="col-md-2">
+                <label for="cidade">Cidade</label>
+                <input class="form-control" type="text" id="cidade" placeholder="Cidade">
+              </div>
+
+              <div class="col-md-3">
+                  <label for="estado">Estado</label>
+                  <select id="estado" class="form-select">
+                    <option selected>Opções</option>
+                    <option>Acre</option>
+                    <option>Alagoas</option>
+                    <option>Amapá</option>
+                    <option>Amazonas</option>
+                    <option>Bahia</option>
+                    <option>Ceará</option>
+                    <option>Distrito Federal</option>
+                    <option>Espírito Santo</option>
+                    <option>Goiás</option>
+                    <option>Maranhão</option>
+                    <option>Mato Grosso</option>
+                    <option>Mato Grosso do Sul</option>
+                    <option>Minas Gerais</option>
+                    <option>Pará</option>
+                    <option>Paraíba</option>
+                    <option>Paraná</option>
+                    <option>Pernambuco</option>
+                    <option>Piauí</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Rio Grande do Norte</option>
+                    <option>Rio Grande do Sul</option>
+                    <option>Rondônia</option>
+                    <option>Roraima</option>
+                    <option>Santa Catarina</option>
+                    <option>São Paulo</option>
+                    <option>Sergipe</option>
+                    <option>Tocantins</option>
+                  </select>
+              </div>
+
+              <div class="col-md-7">
+                <label> Mensagem:
+                  <textarea id="mensagem" cols="100" class="form-control" placeholder="Digite sua mensagem aqui"></textarea>
+                </label>
+                </div>
+
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-outline-primary" type="submit" onclick="return validar()">Enviar</button>
+              <button class="btn btn-outline-danger" type="reset" >Cancelar</button>
+            </div>
+
+          </form>
+
+        </div>
+      <div>
+
+
+    </section>
+
+
+
+<!-- RODAPÉ -->
+    <footer id="rodape" class="bg-primary text-light">
+      <p>Desenvolvido por <b>Débora Moreira</b>, 2021</p>
+    </footer>
+  
+<!--Js proprio-->
+    <script src=javascript/validar.js></script>
+
+<!-- js do bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+
+</html>

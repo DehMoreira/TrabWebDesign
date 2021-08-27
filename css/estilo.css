@@ -1,0 +1,92 @@
+
+@media screen and (max-width: 768px) {
+    #menu h4, h5 {
+        font-size: 8pt;
+    }
+
+    #menu1 h4, h5 {
+        font-size: 8pt;
+    }
+
+    #menu .coluna2, #menu1 .coluna2{
+        padding-left: 6em;
+    }
+
+    .logoSi{
+        margin-left: -2em;
+    }
+
+    .fotos {
+        margin-left: -12em;
+    }
+
+    .cardNota{
+        padding-bottom: 2em;
+    }
+
+    }
+
+#menu1{
+    padding-bottom: 1em;
+}
+
+#menu img, #menu1 img{
+    padding-left: 1em;
+}
+
+
+#menu .coluna2,#menu1{
+    padding-right: 12em;
+}
+
+
+#links{
+    margin-right: 3em;
+}
+
+.notas{
+    padding-left: 6em;
+    padding-bottom: 2em;
+    font-size: 12pt;
+}
+
+#descricao h3{
+    text-align: center;
+}
+
+#descricao img{
+   padding-top: 3em;
+   padding-left: 5em;
+}
+
+.textoCurso{
+    text-align: justify;
+}
+
+#descricao, #docentes, #noticias, #contato, #noticia{
+    padding-top: 3em;
+}
+
+#contato, #noticia{
+    padding-bottom: 3em;
+}
+
+.fotos img{
+    padding-left: 2em;
+    width:960px;
+    height:660px;
+}
+
+.fotos{
+    padding-left:6em;
+    padding-bottom: 2em;
+}
+
+#rodape {
+    padding-top:1em;
+    padding-bottom: 0.5em;
+    text-align: right;
+    padding-right: 2em;
+    font-size: 10pt;
+}
+
